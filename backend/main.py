@@ -68,7 +68,7 @@ def make_chef_reply(user_text: str, gemini_api_key: str) -> str:
 def make_audio(reply_text: str, elevenlabs_api_key: str, voice_id: str) -> bytes:
     # code elevenlabs text-to-speech API call here:
     elevenlabs_response = requests.post(
-        f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}",
+        f"https://api.elevenlabs.io/v1/text-to-speech/{hpp4J3VqNfWAUOO0d1Us}",
         headers={
             "xi-api-key": elevenlabs_api_key,
             "Content-Type": "application/json",
